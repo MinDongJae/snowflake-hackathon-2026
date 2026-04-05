@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "ko-KR",
-    baseUrl: "snowflake-hackathon-2026.github.io",
+    baseUrl: "mindongjae.github.io/snowflake-hackathon-2026",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
