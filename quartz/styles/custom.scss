@@ -1,3 +1,22 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Pretendard 폰트 적용
+:root {
+  --headerFont: "Pretendard", "Noto Sans KR", sans-serif;
+  --bodyFont: "Pretendard", "Noto Sans KR", sans-serif;
+  --codeFont: "IBM Plex Mono", monospace;
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, li, td, th, a, span, div,
+.page-title,
+.article-title,
+.sidebar,
+.breadcrumb-element,
+.meta,
+.search-bar input,
+.callout-content,
+blockquote {
+  font-family: "Pretendard", "Noto Sans KR", sans-serif !important;
+}
